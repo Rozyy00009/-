@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    transition: left 0.2s ease, top 0.2s ease;
+}
